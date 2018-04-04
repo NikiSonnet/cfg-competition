@@ -60,3 +60,12 @@ input[type=submit]:hover {
     border-radius: 5px;
     padding: 20px;
 }
+p1{
+  font-family: 'Arvo', serif;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 24px;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+}
