@@ -1,8 +1,9 @@
 /* Style inputs with type="text", select elements and textareas */
 body {
   background:
-    linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
-    url("gallery_stock.jpg");
+    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url("../gallery_stock.jpg");
+    background-size: cover;
   background-size: cover;
 }
 nav{
@@ -34,11 +35,12 @@ input[type=text], select, textarea {
     font-family: 'IBM Plex Serif', serif;
     font-size: 12px;
     line-height: 14px;
+    background: rgba(255, 255, 255, 0.6);
 }
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
-    background-color: #4CAF50;
+    background-color: black;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -47,20 +49,21 @@ input[type=submit] {
     font-family: 'IBM Plex Serif', serif;
     font-size: 20px;
     line-height: 22px;
-    background-color: #400C60;
+    background-color: black;
 }
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
-    background-color: #BC62F4;
+    background-color: #333333;
 }
 
 /* Add a background color and some padding around the form */
 .container {
     border-radius: 5px;
     padding: 20px;
+    margin: auto;
 }
-p1{
+.write_to_us{
   font-family: 'Arvo', serif;
   font-weight: bold;
   font-size: 22px;
@@ -68,4 +71,7 @@ p1{
   text-align: center;
   width: 100%;
   margin: auto;
+}
+#searchbox {
+  background:white;
 }
